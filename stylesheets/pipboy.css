@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Al Tarikh";
+}
+ul {
+  list-style-type: none;
+}
+.col-1 {
+  width: 80px;
+}
+.pip-frame {
+  margin: auto;
+  width: 986px;
+  height: 600px;
+  background-image: url(pip-background.gif);
+  color: #16F888;
+}
+.pip-screen {
+  float: left;
+  margin: 40px 10px;
+  width: 960px;
+  background-color: transparent;
+  border-image: linear-gradient(#16F888, transparent 20%, transparent, transparent 80%, #16F888) 1 1 stretch;
+}
+.pip-nav {
+  background-color: transparent;
+  position: relative;
+  margin: -22px 0;
+  height: 42px;
+  font-size: 24;
+}
+.pip-nav ul {
+  height: 42px;
+}
+.pip-nav ul li {
+  display: inline-block;
+  margin: 3px 35px;
+  padding: 0px 15px;
+  background-image: url(pip-background.gif);
+}
+.pip-page {
+  margin-top: 22px;
+}
+.pip-page .pip-sidebar {
+  width: 240px;
+  float: left;
+}
+.pip-page .pip-sidebar .inner {
+  border-image: linear-gradient(#16F888, transparent 20%, transparent, transparent 80%, #16F888) 1 1 stretch;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+.pip-page .pip-sidebar .inner li {
+  padding: 20px 0px;
+}
+.pip-page .pip-sidebar .inner .pip-info-name {
+  display: inline;
+  padding-left: 20px;
+}
+.pip-page .pip-sidebar .inner .pip-info-value {
+  display: inline;
+  padding-right: 20px;
+  float: right;
+}
+.pip-page .pip-sidebar .inner .pip-info-value::after {
+  clear: both;
+}
+.pip-page .pip-content {
+  width: 720px;
+  float: left;
+}
+.pip-page .pip-content .inner {
+  padding: 0px 5px;
+}
+.pip-page .pip-content .inner .pip-status-bar li {
+  display: table-cell;
+  width: 240px;
+}
+.pip-page .pip-content .inner .pip-status-bar li .pip-value {
+  line-height: 22px;
+  padding-right: 40px;
+  float: right;
+}
+.pip-page .pip-content .inner .pip-status-bar li .pip-value::after {
+  clear: both;
+}
+.pip-page .pip-content::after {
+  clear: both;
+}
+.pip-page .pip-jumbotron {
+  width: 680px;
+  float: left;
+}
+.pip-page .pip-jumbotron img {
+  width: 680px;
+}
+.pip-page .pip-info {
+  border: 5px 5px 0px 0px solid #16F888;
+  width: 670px;
+  float: left;
+}
